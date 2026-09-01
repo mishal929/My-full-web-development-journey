@@ -1,0 +1,1 @@
+alert("Hey,observe my source code carefully.ok!!Dont be stupid kiddo")
