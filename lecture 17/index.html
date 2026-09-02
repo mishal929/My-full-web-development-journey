@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        div{
+            background-color: rebeccapurple;
+        }
+   .red{
+    background-color: brown;
+   }
+   #green{
+    background-color: greenyellow;
+   }
+   div>p{
+    background-color: darkgoldenrod;
+    color: darkcyan;
+   }
+   div p{
+     background-color: deeppink;
+     color: darkviolet;
+   }
+   *{
+    padding: 0px;;
+    margin: 0%;
+   }
+   a:visited{
+    color: chocolate;
+   }
+   a:active{
+    background-color: darkred;
+   }
+   a:hover{
+    background-color: cadetblue;
+   }
+   p:first-child{
+    background-color: black;
+   }
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am div
+    </div>
+    <div style="color: aquamarine;">i am another div</div>
+    <div id="green">my laptop model is hp zbook g10 firefly mobile workstation pc</div>
+    <div>
+        <article>
+        <p>
+                This is para inside div
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur!</p>
+            </article>
+    </div>
+    <div>
+        <p>This is first child thats why its bg turns into black</p>
+        <p>Testing properly</p>
+    </div>
+    <a href="https://www.aljazeera.com/">Al jazeera news</a>
+    <a href="https://www.gemini.com/">gemini</a>
+    <a href="https://Aarong.com/">Aarong</a>
+</body>
+</html>
