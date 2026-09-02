@@ -1,0 +1,1 @@
+alert("Dont be depressed man, just move with your own thought")
