@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS sizing units-</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1080px; */
+            width: 50vw;
+            margin: auto;
+            background-color: brown;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 1080px; */
+            width: 70vw;
+            height: 70vh;
+            margin: 25px auto;
+            background-color: slateblue
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is box for testing
+    </div>
+    <div class="container">
+        This box is for container class. Hope you got it kiddo
+    </div>
+</body>
+
+</html>
